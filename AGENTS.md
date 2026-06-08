@@ -1,0 +1,59 @@
+# AGENTS.md — working in the SoCSE-Curriculum repository
+
+Guidance for AI coding agents (and humans) working in this repo. Read this first.
+
+## What this repository is
+
+The curriculum-design system for **REVA University, School of Computer Science & Engineering (SoCSE)** — the **2026 B.Tech scheme** (CSE, ISE, IT, AIML, AIDS, IoT, Cyber Security with Blockchain). It is a **documentation/knowledge repository**, not a software project: there is no build, no test suite, no application code. The "source" is Markdown and Word documents that define curriculum strategy, course-design rules, templates, and individual course files.
+
+## The one idea everything serves
+
+**Dual-level course design.** Each core course is delivered at **two levels within the same course** — an **awareness floor** (every student must clear it; protects placement readiness) and an **advanced ceiling** (depth for the strong; required to exceed 8 CGPA) — separated by **assessment, not by streaming students into sections**. Mastering only the awareness level must land a student *below* the 8-CGPA band by design. If a change weakens or bypasses this, it is almost certainly wrong — check `REVA_BTech_Curriculum_Strategy.md` before proceeding.
+
+## Repository map
+
+| File | Role | Edit freely? |
+|---|---|---|
+| `README.md` | One-line repo description | Yes |
+| `REVA_BTech_Curriculum_Strategy.md` | The strategy (the *why*). Source of truth. | Rarely — strategy decisions are institutional |
+| `Course_Designer_Guidelines_2026.md` | Design rules by course category and L-T-P | Rarely |
+| `Course_File_Template_DualLevel.md` | The Course File template faculty fill (§0–§22) | Carefully — it's a shared template |
+| `Curriculum_Visual_Map.md` | Semester-by-semester map (category, L-T-P-C, level, prerequisites) as a Mermaid graph | When the scheme changes |
+| `Course_Design_Workflow.md` | The two-path faculty workflow (Outcomes-first / Activities-first) | Yes |
+| `Course_Design_Checklist.md` | ~45-item submission gate with stable IDs + severities | Yes |
+| `Course_Design_Verification_DAA.md` | Worked verification of the DAA course file | Yes (it's an artifact) |
+| `CourseDesignWorkflow.md` | Faculty's raw planning notes — **do not polish or delete without asking** | No |
+| `CF_DAA_*.docx`, `*.docx` | Actual course files / reports (Word) | Read mostly; edit only on request |
+| `.claude/skills/` | Project skills (see below) | Yes |
+
+## Skills in this repo
+
+Two project skills under `.claude/skills/` package the core workflows. Prefer them over ad-hoc work:
+
+- **`reva-course-designer`** — author a complete dual-level Course File via either entry path (start from Course Outcomes, or from Activities in the session plan).
+- **`reva-course-reviewer`** — verify a completed Course File against `Course_Design_Checklist.md` + strategy + curriculum structure, producing a READY / NOT READY verdict.
+
+## Conventions
+
+- **Markdown** is the working format. Keep the existing voice: tables, blockquote callouts for rules, `🔴/🟠/🟡` severities, `🟢/🔵` template-section markers. Preserve the `‹…›` placeholder convention in templates.
+- **Cross-link** related docs by relative path so the set stays navigable.
+- **Do not stream students** into ability sections in any design — differentiation is by assessment (Strategy §5.4). Do not invent a local awareness/advanced mark ratio; it is a program-level decision (Guidelines §0).
+- **Honour the keystone sections** when touching a Course File: §3 dual-level scope, §11 session plan (Merrill phase + activity + level per session), §14/§14.1 assessment + CGPA calibration, §22 Merrill strategy.
+
+## Working with `.docx` files
+
+`python-docx` is **not installed**. To read a Word file, extract `word/document.xml` from the docx (a zip) and pull the `<w:t>` runs — see the snippet in `.claude/skills/reva-course-reviewer/SKILL.md`. Write output with UTF-8 encoding (the default Windows codepage chokes on characters like `‑`). To *edit* a `.docx`, use the `docx` skill if available, or operate on the underlying XML carefully.
+
+## Environment
+
+- OS: Windows. A `bash` tool and PowerShell are both available; the repo path is `C:\Users\DELL\Desktop\SoCSE-Curriculum`.
+- Git normalises LF→CRLF on checkout; the `LF will be replaced by CRLF` warnings on `git add` are harmless.
+
+## Contributing / Git workflow
+
+- Default branch: **`main`**. Branch before committing non-trivial work.
+- Commit message style: imperative subject; end with `Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>`. **Pass multi-line messages via `-F <file>`, not a PowerShell here-string** (the here-string leaked a stray `@` into a subject line once).
+- **Push access caveat:** the stored credential authenticates as **`adminedarc`**, which has **no write access** to the upstream `kavyareva24/SoCSE-Curriculum`. Direct `git push origin main` returns **403**.
+  - Workaround in use: a fork **`adminedarc/SoCSE-Curriculum`** exists, wired as the git remote **`fork`**. Push feature branches to `fork` and open PRs into `kavyareva24:main` (`gh pr create --repo kavyareva24/SoCSE-Curriculum --base main --head adminedarc:<branch>`).
+  - The clean long-term fix is to give the working account write access to the upstream repo (or repoint `origin`). Confirm with the user before changing remotes or auth.
+- Only commit/push when the user asks.
