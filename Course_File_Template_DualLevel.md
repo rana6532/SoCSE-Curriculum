@@ -133,15 +133,21 @@
 
 ---
 
-## 11. Lesson plan — tentative transaction dates 🟢
+## 11. Lesson plan — tentative transaction dates + session implementation 🟢🔵
 
-| S.No | Planned date | Execution date | Unit / topic | Pedagogy | % completion | Level (A/Adv) 🔵 | Extended activity | Remarks |
-|---|---|---|---|---|---|---|---|---|
-| 01 | ‹…› | | ‹…› | ‹Direct› | ‹25%› | ‹A› | | |
-| 02 | ‹…› | | ‹…› | | | ‹A› | | |
-| … | | | | | | | | |
+> This is the **single, merged session table** for the course. Each row is one session and now carries both the calendar/coverage fields **and** the implementation plan: the **Merrill phase** the session serves and the **activity** the faculty actually runs (see §22 for the Merrill strategy and phase definitions). Tag every row with its **level** so the plan shows where the advanced ceiling is *taught*, not just assessed.
 
-> 🔵 The **Level** column lets the plan show where in the calendar the advanced-level content is actually taught — not just assessed. A course with no "Adv" rows has no ceiling and violates the calibration rule.
+| S.No | Planned date | Exec. date | Unit / topic | Merrill phase 🔵 | Activity (what the faculty runs) 🔵 | % compl. | Level (A/Adv) 🔵 | CO 🔵 | Remarks |
+|---|---|---|---|---|---|---|---|---|---|
+| 01 | ‹…› | | ‹Unit 1 — topic› | Problem-centred + Activation | ‹Present anchoring real-world problem; **lecture followed by a demonstration** to activate prior knowledge› | ‹25%› | A | ‹CO1› | |
+| 02 | ‹…› | | ‹Unit 1 — topic› | Demonstration | ‹Worked example / live walkthrough of the standard procedure› | | A | ‹CO1› | |
+| 03 | ‹…› | | ‹Unit 1 — topic› | Application | ‹Guided in-class exercise / lab on a familiar problem (floor)› | | A | ‹CO1› | |
+| 04 | ‹…› | | ‹Unit 1 — topic› | Application + Integration | ‹Stretch problem: apply skill to an unfamiliar / optimised case (ceiling)› | | Adv | ‹CO2› | |
+| 05 | ‹…› | | ‹Unit 2 — topic› | Activation | ‹Recap quiz + **lecture followed by a demonstration** linking Unit 1 → Unit 2› | | A | ‹CO3› | |
+| … | | | ‹…› | ‹…› | ‹…› | | ‹A / Adv› | ‹…› | |
+| N | ‹…› | | ‹Unit 4 — capstone› | Integration | ‹Mini-project / novel-problem task transferring skill to the student's own context› | ‹100%› | Adv | ‹CO6› | |
+
+> 🔵 The **Level** column shows where in the calendar the advanced-level content is actually taught — not just assessed. A course with no "Adv" rows has no ceiling and violates the calibration rule (§14.1). The **Merrill phase** + **Activity** columns carry the implementation plan; the phase-coverage audit lives in §22.1.
 
 ---
 
@@ -315,7 +321,7 @@ Course Faculty (digital signature) — ‹…›   HoD / Director (digital signa
 |---|---|
 | Course content & weightage | §3 declares awareness vs advanced **scope per unit** |
 | Course outcomes | §5 tags each CO with a **level** |
-| Lesson plan | §11 marks **where advanced content is taught** |
+| Lesson plan | §11 is the **merged session table** — adds Merrill phase + activity per session |
 | Differentiated instruction | §8 tied to **floor vs ceiling**, not generic |
 | Evaluation scheme | §14 **splits every instrument** into awareness/advanced marks |
 | — | §14.1 **CGPA calibration check** (awareness-only must fall < 8) |
@@ -324,3 +330,37 @@ Course Faculty (digital signature) — ‹…›   HoD / Director (digital signa
 | — | §17 **track-advice signal** feeding academic mentors / SIGs |
 | CO attainment | §18 reports **advanced COs separately** |
 | — | §21 **dual-level health-check** reflection |
+| — | §22 **Merrill strategy + phase-coverage audit** for the §11 sessions |
+
+---
+
+## 22. 🔵 Implementation strategy — Merrill's First Principles
+
+> The per-session implementation plan is **merged into the lesson-plan table (§11)** — that is the single place where each session's Merrill phase, activity, and level are recorded. This section holds the **strategy behind those columns**: it defines the phases the faculty choose from, and §22.1 audits that the plan actually covers them.
+>
+> Learning activities in §11 are structured around **Merrill's First Principles of Instruction** — knowledge is best built when learners move through a problem-centred cycle of five phases.
+>
+> **Merrill's five phases (the activity vocabulary for the §11 "Merrill phase" column):**
+>
+> | Phase | What it means | Typical activity |
+> |---|---|---|
+> | **Problem / Task-centred** | Anchor learning in a real-world problem the student will be able to solve | Present a motivating problem, case, or task |
+> | **Activation** | Activate relevant prior knowledge before new content | **Lecture followed by a demonstration**, recap quiz, prior-concept recall |
+> | **Demonstration** | Show, don't just tell — worked examples of the skill | Live coding / solved example / walkthrough |
+> | **Application** | Learner practises the skill with feedback | Guided exercises, lab task, problem set |
+> | **Integration** | Learner transfers the skill to their own context | Mini-project, peer teaching, novel-problem task |
+>
+> **Design rule:** across each unit, the §11 sessions should cover **all five phases**, and at least some **Advanced-level** activities (usually in Application/Integration) must appear — without them the course has no ceiling (see calibration rule, §14.1). For example, a faculty member may run the **Activation** phase as a *lecture followed by a demonstration*, then move to dedicated Demonstration and Application sessions.
+
+### 22.1 Phase-coverage check 🔵
+
+> Quick self-audit of the §11 session table before the course runs — confirm every phase appears and the ceiling is actually taught, not just assessed. Reference the **S.No** values from §11.
+
+| Check | Entry |
+|---|---|
+| All five Merrill phases used at least once per unit | ‹Yes / No› |
+| §11 sessions using Activation = **lecture + demonstration** | ‹S.No list› |
+| §11 sessions delivering **Advanced-level** activities | ‹S.No list› |
+| ✅ Ceiling taught (≥1 Adv activity per unit, not only assessed) | ‹Yes / No› |
+
+> If "Ceiling taught" is **No**, the plan assesses advanced content it never teaches — add Application/Integration sessions at Advanced level before the course runs.
