@@ -20,6 +20,12 @@
 
 **Program-scheme verification:** Course code and `L-T-P` verified against program schemes: [Docs/CSE-v1.md](Docs/CSE-v1.md), [Docs/ISE-v1.md](Docs/ISE-v1.md), [Docs/CSIT-v1.md](Docs/CSIT-v1.md) — official pattern is `L-T-P = 1-1-0` for B25CI0101. Update faculty/contact fields and session plan if the delivery model requires per-program variations.
 
+**HoD / Program decision (lab integration):** The program scheme lists `L-T-P = 1-1-0`. This course is authored for an integrated delivery model (`1-1-1`) to keep lecture/tutorial/practical aligned in a single course. This is subject to formal approval by the HoD/program governance. HoD waiver/approval (paste line below when obtained):
+
+> HoD approval (lab integrated as `1-1-1`): ‹Name› — Signature: ‹…› — Date: ‹YYYY-MM-DD›
+
+If approval is not granted, change `L-T-P` to `1-1-0` and move lab sessions to the paired course code `B25CI0102` as per program scheme.
+
 ---
 
 ## 1. Course description 🟢
@@ -271,6 +277,8 @@ Anti-AI & assessment-hardening measures:
 | ✅ Calibration confirmed (awareness-only < 8 CGPA) | Yes |
 | Program-level official awareness/advanced ratio | Program-level decision — faculty must confirm with HoD/program governance. This Course File uses a 66/34 split only as a working calibration in §14; do not finalise assessment until the official ratio is confirmed. |
 
+HoD confirmation of awareness/advanced ratio: ‹Name / HoD› — Date: ‹YYYY-MM-DD› (pending)
+
 ### 14.2 Question-paper blueprint 🔵
 
 | Instrument | Awareness questions (Bloom: R/U/Ap) | Advanced questions (Bloom: An/E/C) |
@@ -375,7 +383,13 @@ Anti-AI & assessment-hardening measures:
 
 **Signatures**
 
-Course Faculty — ‹…›   HoD / Director — ‹…›
+No streaming policy: Students will NOT be streamed into separate sections based on ability; differentiation is achieved through assessment design (awareness vs advanced). Faculty/HOD must confirm this policy for the program offering.
+
+Course Faculty — ‹Name, Signature›   Date: ‹YYYY-MM-DD›
+
+HoD / Director — ‹Name, Signature›   Date: ‹YYYY-MM-DD›
+
+Review log: Reviewer — `reva-course-reviewer` run on 2026-06-09; verification produced a NOT READY verdict pending HoD confirmation and signatures. Paste external review notes or HoD responses here.
 
 ---
 
