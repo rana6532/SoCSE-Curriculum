@@ -20,6 +20,7 @@ The curriculum-design system for **REVA University, School of Computer Science &
 | `Course_Designer_Guidelines_2026.md` | Design rules by course category and L-T-P | Rarely |
 | `Course_File_Template_DualLevel.md` | The Course File template faculty fill (§0–§22) | Carefully — it's a shared template |
 | `Docs/<PROGRAM>-v1.md` | **Official per-program schemes of instruction** (AIDS, AIML, CSE, CSIT, ISE, IoT) — authoritative course code, category, L-T-P-C, contact hours, CIE/SEE. Look up a course in the **student's program** doc. | When the scheme changes |
+| `CourseFiles/` | **All completed course design documents** — one `.md` per course. Sub-folders: `Foundation/` (all-6 shared), `AI-Programs/` (AIDS+AIML±CSE), `CS-Programs/` (CSE+CSIT+ISE+IoT), and per-program folders. See `CourseFiles/README.md` for the placement rule and naming convention. | Add files here as courses are designed |
 | `Curriculum_Visual_Map.md` | Semester map for **level (A/Adv/A+Adv), prerequisites, SIG alignment** (Mermaid; AIDS-anchored, generalisable) | When the scheme changes |
 | `Course_Design_Workflow.md` | The two-path faculty workflow (Outcomes-first / Activities-first) | Yes |
 | `Course_Design_Checklist.md` | ~45-item submission gate with stable IDs + severities | Yes |
