@@ -91,7 +91,7 @@ The pod defines its track / projects / internships / workshops as a **bundle**, 
 
 ### 5.4 Persona-aware depth lives inside core-course assessment
 
-Diversity is **not** handled by streaming students into different sections. Instead, each core course is designed to be delivered at **two levels within the same course** — an **awareness level** (a floor every student must clear, protecting placement readiness) and an **advanced level** (depth for the strong) — separated by **assessment**, not by class. Every student sees the same course; assessment lets the strong go deep and lets the rest clear the floor.
+Diversity is **not** handled by streaming students into different sections. Instead, each core course is designed to be delivered at **two levels within the same course** — an **awareness level** (a floor every student must clear, protecting placement readiness) and an **advanced level** (depth for the strong) — separated by **assessment**, not by class. Course Outcomes are tagged with a Bloom taxonomy level (Remember / Understand / Apply / Analyse / Evaluate / Create); the awareness floor corresponds to Remember–Apply and the advanced ceiling to Analyse–Create. Every student sees the same course; assessment lets the strong go deep and lets the rest clear the floor.
 
 ### 5.5 Performance feedback steers track choice; entrepreneurship is a narrow exit
 

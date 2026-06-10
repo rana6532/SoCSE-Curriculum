@@ -56,13 +56,6 @@
 | 3 | ‹…› | ‹…› |
 | 4 | ‹…› | ‹…› |
 
-**Bloom anchor (use to keep "awareness" vs "advanced" consistent across courses):**
-
-| Level | Bloom verbs | Typical question stem |
-|---|---|---|
-| **Awareness (floor)** | Remember, Understand, Apply | "Define…", "Explain…", "Apply X to this standard case…" |
-| **Advanced (ceiling)** | Analyze, Evaluate, Create | "Compare and justify…", "Optimize…", "Design a solution for this novel problem…" |
-
 ---
 
 ## 4. Course objectives 🟢
@@ -74,16 +67,16 @@
 
 ## 5. Course outcomes (COs) and PO/PSO mapping 🟢
 
-| CO# | Course outcome | Level (Awareness / Advanced / Both) 🔵 | POs | PSOs |
+| CO# | Course outcome | Level (Remember / Understand / Apply / Analyse / Evaluate / Create) 🔵 | POs | PSOs |
 |---|---|---|---|---|
-| CO1 | ‹…› | ‹Awareness› | ‹…› | ‹…› |
-| CO2 | ‹…› | ‹Both› | ‹…› | ‹…› |
-| CO3 | ‹…› | ‹Advanced› | ‹…› | ‹…› |
+| CO1 | ‹…› | ‹Apply› | ‹…› | ‹…› |
+| CO2 | ‹…› | ‹Apply› | ‹…› | ‹…› |
+| CO3 | ‹…› | ‹Evaluate› | ‹…› | ‹…› |
 | CO4 | ‹…› | ‹…› | ‹…› | ‹…› |
 | CO5 | ‹…› | ‹…› | ‹…› | ‹…› |
-| CO6 | ‹…› | ‹Advanced› | ‹…› | ‹…› |
+| CO6 | ‹…› | ‹Create› | ‹…› | ‹…› |
 
-> 🔵 **New column — CO level.** Tag each CO as Awareness, Advanced, or Both. The design must guarantee that the floor (placement-readiness) is fully covered by Awareness/Both COs, and that at least the highest COs are Advanced so the course has genuine ceiling.
+> 🔵 **New column — CO level.** Tag each CO as (Remember /Understand / Apply /Analyse / Evaluate / create). The design must guarantee that the floor (placement-readiness) is fully covered by Awareness, and that at least the highest COs are Advanced so the course has genuine ceiling.
 
 ---
 
@@ -119,10 +112,10 @@
 
 ## 9. Assignments 🟢
 
-| Assignment | Units covered | Marks | Window |
-|---|---|---|---|
-| Assignment 1 | ‹Unit 1 & 2› | ‹5› | ‹before IA-2› |
-| Assignment 2 | ‹Unit 3 & 4› | ‹5› | ‹before IA-3› |
+| Assignment | Units covered | Marks | Window | Level (Awareness /Advanced)
+|---|---|---|---|---|
+| Assignment 1 | ‹Unit 1 & 2› | ‹5› | ‹before IA-2› |<Awareness>
+| Assignment 2 | ‹Unit 3 & 4› | ‹5› | ‹before IA-3› |<Advanced>
 
 ---
 

@@ -57,7 +57,7 @@ Both paths converge on the same Course File and the same review gate. Pick by ho
 
 ### Path A — Outcomes-first (conventional OBE)
 1. Faculty writes 5–6 **COs** as measurable action statements (no "understand/know"). If they attach an old course doc, lift and modernise the COs from it.
-2. **Tag each CO** Awareness / Advanced / Both (propose tags from Bloom verbs + the map level; have them confirm). At least the highest COs must be Advanced or the course has no ceiling.
+2. **Tag each CO** with a Bloom taxonomy level (Remember / Understand / Apply / Analyse / Evaluate / Create) — propose from Bloom verbs + the map level; have them confirm. Remember–Apply = awareness floor; Analyse–Create = advanced ceiling. At least the highest COs must be at Analyse / Evaluate / Create or the course has no ceiling.
 3. Derive **units → §3 dual-level scope per unit → one activity per session (§11) → §14 dual-level assessment + §14.1 CGPA calibration → CO–PO/PSO mappings.**
 
 ### Path B — Activities-first

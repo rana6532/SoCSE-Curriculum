@@ -24,9 +24,9 @@
 | ID | Check | Severity | Source |
 |---|---|---|---|
 | B1 | **COs written first** and stated as measurable, action-verb statements (not "understand/know"); 5–6 COs typical. | 🔴 Blocker | Guidelines §1.1 |
-| B2 | **Every CO tagged Awareness / Advanced / Both** (the §5 level column). | 🔴 Blocker | Template §5; Strategy §5.4 |
-| B3 | **At least the highest CO(s) are Advanced** — the course has a genuine ceiling. | 🔴 Blocker | Template §5 |
-| B4 | The **awareness floor is fully covered** by Awareness/Both COs and maps to CSCore / entrance-test / placement competencies (where applicable). | 🔴 Blocker | Guidelines §1.3, §4.2 |
+| B2 | **Every CO tagged with a Bloom taxonomy level** (Remember / Understand / Apply / Analyse / Evaluate / Create) in the §5 level column. | 🔴 Blocker | Template §5; Strategy §5.4 |
+| B3 | **At least the highest CO(s) are at Analyse / Evaluate / Create level** — the course has a genuine ceiling. | 🔴 Blocker | Template §5 |
+| B4 | The **awareness floor is fully covered** by Remember / Understand / Apply COs and maps to CSCore / entrance-test / placement competencies (where applicable). | 🔴 Blocker | Guidelines §1.3, §4.2 |
 | B5 | Each CO mapped to **PO/PSO** with correlation strength (1/2/3). | 🟠 Major | Template §5, §19 |
 | B6 | COs are **constructively aligned** — every CO is taught (§11) and assessed (§14); no orphan CO, no assessment without a CO. | 🟠 Major | OBE best practice |
 
@@ -44,7 +44,7 @@
 | ID | Check | Severity | Source |
 |---|---|---|---|
 | D1 | **§11 merged session plan filled** — every session has unit/topic, planned date, % completion, CO, and level (A/Adv) tag. | 🔴 Blocker | Template §11 |
-| D2 | **Each session carries an activity** with enough description to communicate intent (what the student does/submits); for Activities-first courses, the activity set is the spine. | 🔴 Blocker | Template §11; Workflow §3 |
+| D2 | **Each session carries an activity** with enough description to communicate intent (what the student does/submits); for Activities-first courses, the activity set is the spine. **Assignments (§9) carry a level tag** (Awareness / Advanced). | 🔴 Blocker | Template §11, §9; Workflow §3 |
 | D3 | **Every session tagged with a Merrill phase**; across each unit all five phases (Problem-centred, Activation, Demonstration, Application, Integration) appear at least once. | 🟠 Major | Template §22, §22.1 |
 | D4 | **≥1 Advanced-level activity per unit is actually taught** (Application/Integration), not only assessed — the §22.1 "ceiling taught" check is Yes. | 🔴 Blocker | Template §11, §22.1 |
 | D5 | Activity **session counts are realistic** against true contact hours implied by L-T-P (honest budgeting, no idealized self-study assumption). | 🟠 Major | Guidelines §1.6 |

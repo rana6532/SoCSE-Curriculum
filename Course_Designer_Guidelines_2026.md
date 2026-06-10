@@ -21,7 +21,7 @@ If either is missing, flag it — designing assessment without them will break t
 
 ## 1. Universal rules (every course, every category)
 
-1. **Outcome-first.** Write Course Outcomes (COs) before content. Each CO maps to PO/PSO and is tagged **Awareness**, **Advanced**, or **Both**.
+1. **Outcome-first.** Write Course Outcomes (COs) before content. Each CO maps to PO/PSO and is tagged with a **Bloom taxonomy level** (Remember / Understand / Apply / Analyse / Evaluate / Create). Remember–Apply = awareness floor; Analyse–Create = advanced ceiling.
 2. **Two levels in one course.** Never stream students into sections. Design one course delivered at an **awareness floor** (every student must clear it) and an **advanced ceiling** (depth for the strong), separated by **assessment**, anchored to Bloom verbs (floor = Remember/Understand/Apply; ceiling = Analyze/Evaluate/Create).
 3. **The floor protects employability.** Awareness-level content must map to the CSCore / entrance-test / placement competencies the course is responsible for. State that mapping explicitly.
 4. **Currency.** Content reflects recruiter- and future-job-aligned needs and is reviewed every cycle. Perishable tool/tech specifics belong in workshops and labs, not frozen into theory syllabi.
@@ -163,7 +163,7 @@ If either is missing, flag it — designing assessment without them will break t
 
 ## 5. Design checklist (run before submitting any course)
 
-- [ ] COs written first, each tagged Awareness / Advanced / Both, mapped to PO/PSO.
+- [ ] COs written first, each tagged with a **Bloom taxonomy level** (Remember / Understand / Apply / Analyse / Evaluate / Create), mapped to PO/PSO.
 - [ ] Awareness floor explicitly mapped to CSCore / placement competencies (where applicable).
 - [ ] Advanced ceiling defined per unit using Bloom anchor; consistent with the reference exemplar.
 - [ ] For theory/integrated: official awareness/advanced **mark ratio applied** and the *awareness-only < 8 CGPA* check passes.
