@@ -3,7 +3,7 @@
 Course Code: B25EFS711
 Category: CS-Core
 L-T-P-C: 3-0-4
-Credits: 4
+Credits: 3
 Prerequisites: Basic programming (Java or equivalent), Databases fundamentals, HTML/CSS basics
 Contact Hours: 42 (Lecture) + 28 (Lab/Project)
 
@@ -28,7 +28,7 @@ On successful completion, students will be able to:
 - CO5: Deploy, containerize, and monitor applications in a cloud or container environment. (Apply)
 - CO6: Work in a team to deliver a small end-to-end fullstack project with CI/CD basics. (Create)
 
-## 4. Mapping CO → PO (summary)
+## 4. Mapping CO → PO 
 - CO1 → PO1, PO2
 - CO2 → PO3, PO5
 - CO3 → PO3, PO6
