@@ -1,0 +1,177 @@
+# CF_B25EFS711_Java FullStack
+
+Course Code: B25EFS711
+Category: CS-Core
+L-T-P-C: 3-0-4
+Credits: 4
+Prerequisites: Basic programming (Java or equivalent), Databases fundamentals, HTML/CSS basics
+Contact Hours: 42 (Lecture) + 28 (Lab/Project)
+
+## 1. Course Overview
+This course equips students with skills to design and build end-to-end web applications using Java-based backend technologies and modern frontend frameworks. Emphasis is on RESTful APIs, persistent storage, security basics, cloud deployment, and fullstack integration with hands-on labs and a capstone mini-project.
+
+## 2. Learning Objectives (High-level)
+- Build scalable Java backend services using Spring Boot.
+- Design RESTful APIs and integrate with frontend SPAs.
+- Implement persistent storage with relational databases and JPA.
+- Apply authentication, authorization, and basic web security practices.
+- Deploy and monitor applications on cloud or container platforms.
+- Collaborate on a small fullstack project following agile practices.
+
+## 3. Course Outcomes (COs)
+On successful completion, students will be able to:
+
+- CO1: Explain fullstack architecture and design RESTful services. (Apply)
+- CO2: Develop backend applications with Spring Boot and JPA. (Apply)
+- CO3: Build responsive frontend single-page applications using a modern JS framework and consume REST APIs. (Apply)
+- CO4: Implement authentication & authorization and secure common web vulnerabilities. (Analyze)
+- CO5: Deploy, containerize, and monitor applications in a cloud or container environment. (Apply)
+- CO6: Work in a team to deliver a small end-to-end fullstack project with CI/CD basics. (Create)
+
+## 4. Mapping CO → PO (summary)
+- CO1 → PO1, PO2
+- CO2 → PO3, PO5
+- CO3 → PO3, PO6
+- CO4 → PO2, PO5
+- CO5 → PO3, PO9
+- CO6 → PO7, PO10
+
+## 5. Teaching–Learning Strategies
+- Lectures with worked examples and architecture walkthroughs.
+- Weekly hands-on labs to implement incremental features.
+- Pair programming and code reviews during labs.
+- Mini-project (teams of 3–4) spanning the last 6–8 weeks.
+- Demonstrations, guest sessions (if available) on cloud/devops tooling.
+
+## 6. Session Plan (Indicative, 15 weeks)
+
+Week 1 — Course intro; Fullstack overview; HTTP, REST, JSON. (Merrill: Demonstration) Activity: Postman exercises. Level: Awareness
+
+Week 2 — Java ecosystem review; Maven/Gradle; Spring Boot intro. (Activation) Activity: Create Spring Boot starter app. Level: Awareness
+
+Week 3 — Controllers, dependency injection, configuration. Activity: Build basic REST endpoints. Level: Awareness
+
+Week 4 — Data access: JPA, Spring Data, schema design. Activity: Create entities + CRUD repos. Level: Apply
+
+Week 5 — Service layer, DTOs, exception handling, validation. Activity: Add services and input validation. Level: Apply
+
+Week 6 — Testing: Unit tests for services, integration tests for controllers. Activity: JUnit + MockMVC exercises. Level: Apply
+
+Week 7 — Frontend foundations: SPA concepts; choose framework (React/Angular/Vue) + tooling. Activity: Scaffold SPA and call mock API. Level: Awareness
+
+Week 8 — Frontend state management, routing, forms. Activity: Build list/detail views and forms. Level: Apply
+
+Week 9 — API integration, CORS, error handling, upload/download. Activity: Integrate SPA with backend endpoints. Level: Apply
+
+Week 10 — Security basics: Spring Security, JWT, OAuth overview. Activity: Add authentication and role-based access. Level: Analyze
+
+Week 11 — Performance & caching basics; pagination, sorting. Activity: Add pagination and simple cache. Level: Apply
+
+Week 12 — Containerization: Dockerizing backend and frontend; docker-compose. Activity: Create Dockerfiles and compose. Level: Apply
+
+Week 13 — Deployment: CI/CD pipeline basics, deploy to a cloud or VPS. Activity: GitHub Actions simple pipeline. Level: Apply
+
+Week 14 — Monitoring & logging: Health checks, metrics, centralised logs. Activity: Add actuator and logging setup. Level: Apply
+
+Week 15 — Project presentations and course wrap-up. Activity: Team demos and reflective reports. Level: Create
+
+Lab / Project schedule (parallel):
+- Lab 1–4: Backend fundamentals (endpoints, persistence)
+- Lab 5–8: Frontend development and API consumption
+- Lab 9–12: Security, testing, containerization
+- Lab 13–15: Integration, deployment, final project work
+
+## 7. Assessment (CIE + SEE)
+This course uses a dual-level assessment design that explicitly separates the awareness floor from the advanced ceiling. The scheme is calibrated so that full awareness-level marks alone do not permit an 8+ CGPA equivalent; advancing above that threshold requires the advanced portion.
+
+### 7.1 Continuous Internal Evaluation (CIE) — 40%
+- Midterm test (theory + coding): 8%
+- Lab assignments & quizzes: 20%
+- Mini-project (team) deliverables & demo: 12%
+
+### 7.2 Semester End Examination (SEE) — 60%
+- Theory & design questions: 40%
+- Practical / Viva (API + frontend integration): 20%
+
+### 7.3 Awareness / Advanced split
+| Component | Total | Awareness marks | Advanced marks | Weightage | COs |
+|---|---|---|---|---|---|
+| Midterm test | 8 | 5 | 3 | 8% | CO1–CO3 |
+| Labs, assignments & quizzes | 20 | 14 | 6 | 20% | CO2–CO5 |
+| Mini-project deliverables & demo | 12 | 8 | 4 | 12% | CO3–CO6 |
+| SEE theory & design | 40 | 28 | 12 | 40% | CO1–CO5 |
+| SEE practical / viva | 20 | 12 | 8 | 20% | CO2–CO6 |
+| **Total** | **100** | **67** | **33** | **100%** | |
+
+### 7.4 Assessment rubrics
+- Project rubric: Functionality (40%), Code quality & tests (20%), UI/UX & user flows (10%), Deployment & documentation (10%), Team contribution and peer evaluation (20%).
+- Practical / viva rubric: API correctness (30%), frontend integration (20%), security & validation (20%), deployment readiness / CI workflow (15%), communication and explanation (15%).
+- Lab / quiz rubric: correctness (40%), completeness (30%), code style / structure (15%), test evidence / documentation (15%).
+
+### 7.5 Calibration check
+| Check | Entry |
+|---|---|
+| Marks-to-CGPA conversion used | Standard REVA grade point mapping (e.g. 70–79% = 7, 80–89% = 8) |
+| Max % achievable from awareness marks alone | 67% |
+| Grade band that % falls into | Below the 8-CGPA threshold |
+| Advanced marks needed to cross 8 CGPA | Additional 12–15% from advanced portion |
+| ✅ Calibration confirmed (awareness-only < 8 CGPA) | Yes |
+
+### 7.6 Result analysis bands
+| Instrument | < 40% (below floor) | 40–75% (floor cleared, awareness-solid) | > 75% (advanced attained) |
+|---|---|---|---|
+| Midterm | | | |
+| Labs / assignments | | | |
+| Mini-project | | | |
+| SEE theory | | | |
+| SEE practical / viva | | | |
+
+> The >75% column is the working signal for students who have reached the advanced ceiling. Use this to detect whether the advanced portion is actually being earned, not just administered.
+
+## 8. Assessment Mapping (CO → Assessment)
+- CO1: Midterm, SEE design questions
+- CO2: Labs 1–4, Midterm practical, SEE practical
+- CO3: Labs 5–8, Project frontend tasks, SEE theory
+- CO4: Security lab, SEE security/design questions
+- CO5: Containerization/deployment labs, Project deployment, SEE practical
+- CO6: Project deliverables, team demo, peer evaluation
+
+## 9. Learning Resources
+- Core: "Spring in Action" (Craig Walls) — selected chapters
+- Core: Official Spring Boot & Spring Security documentation
+- Frontend: Official docs for chosen framework (React/Angular/Vue)
+- Database: "Pro JPA 2" or online JPA guides
+- DevOps: Docker and GitHub Actions docs
+- Supplementary: Online tutorials (Baeldung, freeCodeCamp), API testing: Postman docs
+
+## 10. Lab and Project Briefs
+- Lab 1: Spring Boot skeleton + hello endpoint
+- Lab 2: Entities and JPA CRUD
+- Lab 3: REST services and DTO mapping
+- Lab 4: Integration tests and basic CI
+- Lab 5: SPA scaffold and fetching API data
+- Lab 6: Forms, validation, and file upload
+- Lab 7: Authentication with JWT
+- Lab 8: Role-based access controls
+- Lab 9: Dockerize services and run with compose
+- Final Project: Team builds a fullstack CRUD application with authentication, REST backend, SPA frontend, Dockerized deployment, CI pipeline, and a short demo video + README.
+
+## 11. Recommended Reading & Links
+- [Spring Boot Reference Guide](https://spring.io/projects/spring-boot)
+- [Spring Security](https://spring.io/projects/spring-security)
+- [Docker Documentation](https://docs.docker.com)
+- [React](https://reactjs.org) or [Angular](https://angular.io) or [Vue](https://vuejs.org)
+
+## 12. Academic Integrity & Team Policies
+- Teams must declare individual contributions. Use Git history and a short peer evaluation form.
+- Plagiarism in code or reports results in disciplinary action per institute policy.
+
+## 13. Instructor Notes
+- Adjust frontend framework choice early based on department tooling.
+- Provide starter templates for backend and frontend to reduce setup time.
+- Consider a short guest session on cloud deployment if resources permit.
+
+---
+Prepared by: Course Designer
+Version: 1.0 — initial draft
+
